@@ -46,6 +46,24 @@
 }
 
 /* *========================
+    Small Tablet & Landscape mode 
+======================== */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+
+  /** ABOUT ME **/
+  .aboutMe_section {
+    margin: 80px auto;
+
+    & img {
+      display: none;
+    }
+  }
+}
+
+/* *========================
           Phone 
 ======================== */
 @media (max-width: 640px) {
@@ -57,11 +75,29 @@
     max-width: 475px;
     padding: 0 1rem;
   }
+
+  .section__title {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
   /** Header **/
   .header {
     margin-top: 20px;
   }
   .header__badge_container {
     flex-direction: column;
+  }
+
+  /** ABOUT ME **/
+  .aboutMe__container {
+    padding: 1rem;
+    width: 90%;
+    border-radius: 2rem;
+  }
+
+  .aboutMe__content_container {
+    border-radius: 2rem;
   }
 }

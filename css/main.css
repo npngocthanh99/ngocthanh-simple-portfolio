@@ -21,6 +21,11 @@
 a {
   text-decoration: none;
 }
+
+.section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
 .container {
   margin: 0 auto;
   max-width: 1536px;
